@@ -1,0 +1,154 @@
+.title-products-populares {
+    margin: auto;
+    margin-top: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5b1f00;
+    width: 50%;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+.cards-products {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.title-products {
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5b1f00;
+    width: 50%;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.card {
+    width: 280px;
+    height: 450px;
+    padding: .8em;
+    background: #f5f5f5;
+    position: relative;
+    overflow: visible;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    display: flex;
+    flex-direction: column;
+}
+
+.card-img,
+.card-img-slide {
+    display: flex;
+    height: 500px;
+    width: 100%;
+    border-radius: .5rem;
+    transition: .3s ease;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-img img,
+.card-img-slide img {
+    width: 200px;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.card-info {
+    padding-top: 10%;
+    flex-grow: 1;
+}
+
+svg {
+    width: 20px;
+    height: 20px;
+}
+
+.card-footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+}
+
+
+/*Text*/
+.text-title {
+    font-weight: 900;
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+.text-precio {
+    font-weight: 900;
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+.text-body {
+    font-size: .9em;
+    padding-bottom: 10px;
+}
+
+/*Button*/
+.card-button,
+.card-button-slide {
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: .3s ease-in-out;
+    align-items: center;
+    justify-content: center;
+    background-color: #874421;
+    border: none;
+}
+
+.card-button svg,
+.card-button-slide svg {
+    color: #fff;
+}
+
+/*Hover*/
+.card-img:hover {
+    transform: translateY(-33%);
+    color: #ddd
+}
+
+.card-button:hover,
+.card-button-slide:hover {
+    background-color: #5b1f00;
+}
+
+
+@media (max-width:880px) {
+
+    .productos-populares .text-title {
+        font-size: 1em !important;
+
+    }
+
+    .productos-populares .text-body {
+        font-size: 0.7em !important;
+
+    }
+
+    .productos-populares .text-precio {
+        font-size: 1em !important;
+
+    }
+
+}

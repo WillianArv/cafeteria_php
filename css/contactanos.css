@@ -1,0 +1,78 @@
+.container-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 50px;
+}
+
+.container-button {
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+button[type="submit"] {
+    background-color: #7a2e07;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 20px 30px;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+button[type="submit"]:hover {
+    background-color: #ad4d1d;
+}
+
+@media (max-width: 650px) {
+    .container-form {
+        max-width: 450px;
+    }
+}
+
+@media (max-width: 500px) {
+    .container-form {
+        max-width: 400px;
+    }
+}
+
+
+@media (max-width: 300px) {
+    .container-form {
+        max-width: 200px;
+    }
+}
